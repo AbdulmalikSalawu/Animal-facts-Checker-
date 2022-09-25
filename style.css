@@ -1,0 +1,63 @@
+body{
+    background-image: url('pexels-kelly-2888333.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 650px; */
+    /* overflow-y: hidden; */
+}
+button{
+    background-color: rgb(1, 29, 1) !important;
+    padding: 15px;
+    border: thin solid white;
+    border-radius: 40px;
+    margin-top: 40px !important;
+    /* border: none; */
+    font-family: 'Times New Roman', Times, serif;
+}
+button:hover{
+    background-color: rgb(107, 192, 192) !important;
+    color: black !important;
+    font-weight: bold;
+}
+#disp{
+    /* From https://css.glass */
+    /* From https://css.glass */
+    background: rgba(216, 218, 213, 0.22);
+    border-radius: 26px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.8px);
+    -webkit-backdrop-filter: blur(9.8px);
+    border: 1px solid rgba(216, 218, 213, 0.3);
+    color: rgb(18, 1, 1) !important;
+    font-family: 'Times New Roman', Times, serif !important;
+    font-size: 40px !important;
+}
+#imagecont{
+    height: 400px !important;
+    overflow-y:scroll;
+    border-radius: 40px;
+    margin-top: 45px !important;
+}
+#box{
+    display: flex;
+}
+
+@media screen and (max-width: 600px) {
+    #disp{
+        width: 80%;
+        margin: auto;
+        margin-top: 10px!important;
+    }
+    #box{
+        display: block;
+    }
+    #imagecont{
+        margin-top: 20px !important;
+        margin-left: 80px !important;
+    }
+}
+@media screen and (min-width: 1050px) {
+    #disp{
+        margin-left: 210px !important;
+    }
+}
